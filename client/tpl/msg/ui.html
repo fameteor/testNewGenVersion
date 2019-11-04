@@ -1,0 +1,16 @@
+<template name="tplMsgUi">
+	<div class="row">
+		<div class="col-sm-2">
+			<div class="list-group">
+				<a href="/pers/infos/{{id}}" class="list-group-item list-group-item-action active">boite de réception</a>
+				<a href="/pers/asc-tree/{{id}}" class="list-group-item list-group-item-action {{isActiveRoute name='pers.ascTree'}}">brouillons</a>
+				<a href="/pers/desc-tree/{{id}}" class="list-group-item list-group-item-action {{isActiveRoute name='pers.descTree'}}">éléments envoyés</a>
+			</div>
+		</div>
+		<div class="col-sm-8">
+
+		</div>
+	</div>
+	
+	
+</template>

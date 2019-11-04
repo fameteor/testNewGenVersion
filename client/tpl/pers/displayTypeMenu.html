@@ -1,0 +1,8 @@
+<template name="tplPersDisplayTypeMenu">
+	<div class="list-group">
+	  <a href="/pers/infos/{{id}}" class="list-group-item list-group-item-action {{isActiveRoute name='pers.infos'}}">fiche</a>
+	  <a href="/pers/asc-tree/{{id}}" class="list-group-item list-group-item-action {{isActiveRoute name='pers.ascTree'}}">arbre ascendant</a>
+	  <a href="/pers/desc-tree/{{id}}" class="list-group-item list-group-item-action {{isActiveRoute name='pers.descTree'}}">arbre descendant</a>
+	  <a href="/pers/links/{{id}}" class="list-group-item list-group-item-action {{isActiveRoute name='pers.links'}}">liens</a>
+	</div>
+</template>

@@ -1,0 +1,27 @@
+<head>
+  <title>meteorGen</title>
+</head>
+
+<body>
+	{{> routerNavBar}}
+	<div class="container-fluid" style="margin-top: 10px;">
+		{{> App_body}}
+	</div>
+	
+	<div class="modal fade" id="persModalSearch" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" data-backdrop="static">
+	  {{> tplPersModalSearch}}
+	</div>
+</body>
+
+<template name="App_body">
+	{{> Template.dynamic template=main}}
+	
+</template>
+
+
+
+
+
+
+
+
