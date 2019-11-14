@@ -1,4 +1,6 @@
 import { Template } from 'meteor/templating';
+import { Session } from 'meteor/session';
+
 import { ReactiveVar } from 'meteor/reactive-var';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
@@ -54,5 +56,7 @@ Object.keys(routes).map(function(key) {
 	});
 	
 });
+
+console.log(Session.get('githubVersion'));
 
 
